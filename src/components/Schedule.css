@@ -1,0 +1,51 @@
+.schedule {
+    font-size: 25px;
+    background-color: white;
+    padding: 25px;
+  }
+  
+  .schedule h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-top: 20px;
+  }
+  
+  .table th {
+    background: linear-gradient(90deg, rgba(28, 27, 27, 0.8) 0%, rgba(26, 23, 23, 0.8) 100%);
+  }
+  
+  .change_color {
+    background: linear-gradient(90deg, rgba(28, 27, 27, 0.8) 0%, rgba(26, 23, 23, 0.8) 100%);
+  }
+  
+  .table th,
+  td {
+    border: solid 2px black;
+  }
+  
+  .table th,
+  td {
+    
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 960px) {
+    .schedule {
+      padding: 15px;
+    }
+  
+    .schedule h2 {
+      font-size: 40px;
+    }
+  
+    .table th,
+    .table td {
+      padding: 3px 5px;
+      font-size: 16px;
+    }
+  }
