@@ -3,6 +3,7 @@ import'../../App.css';
 import HeroSection from '../HeroSection';
 import AboutSection from '../AboutSection';
 import Schedule from '../Schedule';
+import GalleryCarousel from '../GalleryCarousel';
 
 
 
@@ -12,6 +13,7 @@ function Home() {
         <HeroSection />
         <AboutSection />
         <Schedule />
+        <GalleryCarousel />
         </>
     )
 }

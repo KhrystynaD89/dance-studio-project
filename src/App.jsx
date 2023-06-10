@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './components/pages/Home';
 import Schedule from './components/Schedule';
 
+
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
         <Routes>
         <Route exact path='/' element={<Home/>} />
         <Route path="/schedule" element={<Schedule />} />
+        
         </Routes>
       </Router>
     </>
