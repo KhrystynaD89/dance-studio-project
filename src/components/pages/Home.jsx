@@ -4,6 +4,7 @@ import HeroSection from '../HeroSection';
 import AboutSection from '../AboutSection';
 import Schedule from '../Schedule';
 import GalleryCarousel from '../GalleryCarousel';
+import Footer from '../Footer';
 
 
 
@@ -14,6 +15,7 @@ function Home() {
         <AboutSection />
         <Schedule />
         <GalleryCarousel />
+        <Footer/>
         </>
     )
 }
